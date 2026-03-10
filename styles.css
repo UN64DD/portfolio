@@ -154,7 +154,48 @@ nav .right a span {
   font-size: 18px;
 }
 
-/* SECTION 3: Testimony */
+/* SECTION 3: Projects */
+.projects-section {
+  padding: 0 50px;
+  margin-bottom: 100px;
+}
+
+.projects-section h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.projects-section .group {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.projects-section .group .project-image {
+  flex: 2;
+}
+
+.projects-section .group .project-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-section .group .project-details {
+  flex: 8;
+}
+
+.projects-section .group .project-details h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.projects-section .group .project-details p {
+  line-height: 1.6;
+}
+
+/* SECTION 4: Testimony */
 .testimony-section {
   padding: 0 50px;
   margin-bottom: 100px;
@@ -196,7 +237,7 @@ nav .right a span {
   flex: 8;
 }
 
-/* SECTION 4: Contact */
+/* SECTION 5: Contact */
 .contact-section {
   padding: 0 50px;
   margin-bottom: 100px;
@@ -274,7 +315,12 @@ nav .right a span {
     flex-direction: column;
   }
 
-  /* SECTION 4: Contact */
+  /* SECTION 3: Projects */
+  .projects-section .group {
+    flex-direction: column;
+  }
+
+  /* SECTION 5: Contact */
   .contact-section .group {
     flex-direction: column;
   }
@@ -323,7 +369,12 @@ nav .right a span {
     padding: 0 20px;
   }
 
-  /* SECTION 4: Contact */
+  /* SECTION 3: Projects */
+  .projects-section {
+    padding: 0 20px;
+  }
+
+  /* SECTION 5: Contact */
   .contact-section {
     padding: 0 20px;
   }
